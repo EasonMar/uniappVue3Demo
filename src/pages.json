@@ -1,0 +1,53 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "发送"
+			}
+		},
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		}
+	],
+	"globalStyle": {
+		// 导航栏标题颜色
+		"navigationBarTextStyle": "black",
+		// 导航栏标题文字内容
+		"navigationBarTitleText": "搜索",
+		// 导航栏背景颜色
+		"navigationBarBackgroundColor": "#F8F8F8",
+		// 窗口的背景色
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#007aff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "发送",
+			"selectedIconPath": "static/ss.png",
+			"iconPath": "static/sus.png"
+		},
+		{
+			"pagePath": "pages/about/index",
+			"text": "关于",
+			"selectedIconPath": "static/ms.png",
+			"iconPath": "static/mus.png"
+		}]
+	}
+}
