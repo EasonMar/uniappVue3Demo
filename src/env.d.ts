@@ -22,3 +22,7 @@ interface wxobj {
 declare namespace wx {
   function chooseContact(obj: wxobj): any
 }
+
+
+// vk-uview-ui 声明
+declare module 'vk-uview-ui';
